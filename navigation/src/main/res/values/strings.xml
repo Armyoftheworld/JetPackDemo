@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jetpack</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_first_fragment">FirstFragment</string>
+    <string name="title_second_fragment">SecondFragment</string>
+    <string name="title_third_fragment">ThirdFragment</string>
+</resources>

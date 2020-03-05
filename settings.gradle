@@ -1,0 +1,4 @@
+include ':databinding_livedata', ':databinding_observable', ':databinding_twowaysimple'
+include ':navigation', ':lifecycle', ':viewmodel', ':paging', ':livedatabus'
+include ':room'
+include ':workmanager'

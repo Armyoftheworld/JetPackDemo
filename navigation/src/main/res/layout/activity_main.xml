@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <Button
+        android:id="@+id/btn_go_to_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToSecondActivity"
+        android:text="goToSecondActivity" />
+
+    <Button
+        android:id="@+id/btn_show_deeplink_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_go_to_second_activity"
+        android:onClick="showDeeplinkNotification"
+        android:text="showDeeplinkNotification" />
+
+    <Button
+        android:id="@+id/btn_go_to_bottom_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_show_deeplink_notification"
+        android:onClick="goToBottomNavigationActivity"
+        android:text="goToBottomNavigationActivity" />
+</RelativeLayout>

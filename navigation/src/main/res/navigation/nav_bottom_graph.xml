@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom_graph"
+    app:startDestination="@+id/bottom1_fragment">
+
+    <fragment
+        android:id="@+id/bottom1_fragment"
+        android:name="com.army.jetpack.navigation.Bottom1Fragment"
+        android:label="@string/title_first_fragment"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/bottom2_fragment"
+        android:name="com.army.jetpack.navigation.Bottom2Fragment"
+        android:label="@string/title_second_fragment"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/bottom3_fragment"
+        android:name="com.army.jetpack.navigation.Bottom3Fragment"
+        android:label="@string/title_third_fragment"
+        tools:layout="@layout/fragment_third" />
+</navigation>
