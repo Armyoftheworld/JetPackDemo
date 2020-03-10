@@ -36,7 +36,7 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
         <argument
-            android:name="title"
+            android:name="title2"
             android:defaultValue="I am first title"
             app:argType="string" />
     </fragment>
